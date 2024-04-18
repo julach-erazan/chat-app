@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.formWrapper h1 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #371f76;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formWrapper h2 {
+  font-size: 14px;
+  color: #ac94f4;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formWrapper form input {
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border-bottom: 2px solid #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formWrapper form input::placeholder {
+  color: #bbb;
+}
+
+.formWrapper form label {
+  color: #bbb;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.formWrapper form img {
+  width: 40px;
+  height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  color: #fff;
+}
+
+.navbar .brand {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.navbar .owner img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+}
+
+.search input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  padding: 5px;
+  color: #fff;
+}
+
+.search input::placeholder {
+  color: #eee;
+}
+
+.userChatWrapper {
+  border-bottom: 2px solid #cacaca;
+}
+
+.userChat {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.userChat img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.userChat h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.userChat h2 {
+  color: #cacaca;
+  font-size: 12px;
+  font-weight: 600;
 }
