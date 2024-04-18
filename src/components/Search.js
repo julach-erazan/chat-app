@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <div className="search">
       <input type="text" placeholder="find user" />
-      <div className="userChatWrapper flex flex-col justify-center items-center p-[10px]">
+      <div className="userChatWrapper flex flex-col justify-center items-center">
         <div className="userChat flex">
           <img src="/Images/man2.jpg" alt="" />
           <div className="userChatInfo ml-[20px]">
