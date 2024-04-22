@@ -15,8 +15,10 @@ const Login = () => {
 
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
+
       setError("");
-      navigate("/");
+      // navigate("/");
+      console.log(res);
     } catch (err) {
       setError("Error. Invalid Email or Password");
     }
